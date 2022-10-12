@@ -1,4 +1,22 @@
-  @Before
+  import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import static io.restassured.RestAssured.*;
+import org.junit.Before;
+import org.junit.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import junit.framework.Assert;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+public class PutandDelete {
+	
+	
+	 
+
+	    
+	    @Before
 	    public  void setup() {
 	    	 RestAssured.baseURI = "https://jsonplaceholder.typicode.com";  
 	    }
@@ -42,4 +60,6 @@
 
 	        Assert.assertEquals(200, response.statusCode());
 	    }
+		
+	}
 		
