@@ -1,4 +1,4 @@
-package com.API.Automation.Utility;
+package com.API.Automation.Libraries;
 
 import org.springframework.boot.test.autoconfigure.webservices.client.WebServiceClientTest;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
